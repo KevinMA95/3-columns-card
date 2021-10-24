@@ -1,0 +1,148 @@
+body{
+    font-size: 15px;
+}
+
+.main-container{
+    margin: auto;
+
+}
+
+.sedans-container{
+    background-color: hsl(31, 77%, 52%);
+    max-width: 365px;
+    
+}
+
+.suvs-container{
+    background-color: hsl(184, 100%, 22%);
+    max-width: 365px;
+     
+}
+
+.luxury-container{
+    background-color: hsl(179, 100%, 13%);
+    max-width: 365px;
+         
+}
+
+h2{
+    font-family:'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 35px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    border: 1px solid transparent;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+
+.btn-learn-more-sedans{
+    color: hsl(31, 77%, 52%);
+    
+}
+
+.btn-learn-more-suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-learn-more-lux {
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    background: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 1px solid hsla(0, 0%, 100%, 0.75);
+}
+
+@media (min-width: 0px){
+
+
+   .sedans-container {
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 0px;
+        
+        
+    }
+
+    .luxury-container{
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0px;
+      
+    }
+
+    img {
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+
+    h2 {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 20px;
+    }
+
+    p{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 20px;
+
+    }
+
+    button{
+        padding: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 10px;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 40px;
+        
+    }
+
+
+}
+
+@media (min-width: 376px){
+    .main-container{
+        display: flex;
+        padding: 20%;
+    }
+
+    .sedans-container {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .luxury-container {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 8px;
+    }
+
+    p{
+        padding-bottom: 40px;
+        padding-right: 40px;
+    }
+
+    button{
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+}
